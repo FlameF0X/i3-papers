@@ -6,9 +6,9 @@ This repository serves as the central hub for independent research into i3 (Inno
 
 This section lists the full technical reports available in this repository.
 
-1. The i3-300M Technical Report
->Title: i3-300M: A GRU-Mamba Hybrid Architecture Achieving PPL < 70 in Three Hours on a Single P100
+1. The i3-200M Technical Report
+>Title: i3-200M: A GRU-Mamba Hybrid Architecture Achieving PPL < 70 in Three Hours on a Single P100
 >
 >Status: Preprint
 >
->Link: [Read the Full Technical Report](papers/i3-300M-22112025.pdf)
+>Link: [Read the Full Technical Report](papers/i3-200M-112025.pdf)

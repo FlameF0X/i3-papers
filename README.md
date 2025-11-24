@@ -11,6 +11,4 @@ This section lists the full technical reports available in this repository.
 >
 >Abstract: As Large Language Models (LLMs) continue to grow in size, the computational barrier to entry has heightened. This paper introduces i3-200m (codename: i3-redherring), a 200-million parameter hybrid language model designed for high-efficiency training on consumer-grade hardware. By combining a novel GRU-Mamba recurrent block with Multi-Pattern Attention and Sparse Mixture of Experts (MoE), the model achieves training stability and convergence comparable to GPT-2 baselines in under 5 hours on a single NVIDIA Tesla P100 GPU. The architecture demonstrates that strategic layer hybridization can significantly reduce memory footprint (peaking at ~2.7GB allocated) while maintaining perplexity scores competitive with standard Transformers.
 >
->Status: Preprint
->
 >Link: [Read the Full Technical Report](papers/i3-RedHerring_Technical_Report.pdf)

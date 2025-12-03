@@ -6,9 +6,9 @@ This repository serves as the central hub for independent research into i3 (Inno
 
 This section lists the full technical reports available in this repository.
 
-1. The i3-200M Technical Report
->Title: Project i3-RedHerring: Efficient Sequence Modeling via Hybrid GRU-Mamba and Multi-Pattern Attention Architectures
+1. The i3-200M Report
+>The i3-200M Model: A Hybrid Architecture for Efficient and Effective Language Modeling
 >
->Abstract: As Large Language Models (LLMs) continue to grow in size, the computational barrier to entry has heightened. This paper introduces i3-200m (codename: i3-redherring), a 200-million parameter hybrid language model designed for high-efficiency training on consumer-grade hardware. By combining a novel GRU-Mamba recurrent block with Multi-Pattern Attention and Sparse Mixture of Experts (MoE), the model achieves training stability and convergence comparable to GPT-2 baselines in under 5 hours on a single NVIDIA Tesla P100 GPU. The architecture demonstrates that strategic layer hybridization can significantly reduce memory footprint (peaking at ~2.7GB allocated) while maintaining perplexity scores competitive with standard Transformers.
+>Abstract: The pursuit of efficient and high-performing large language models (LLMs) has led to the exploration of novel architectures beyond the traditional Transformer. This paper introduces the i3-200M Model (also known as Redherring), a novel hybrid architecture designed to leverage the strengths of both recurrent/state-space models and attention mechanisms. The i3-200M uniquely combines RWKV-style time-mixing with Mamba state-space dynamics in its initial layers for efficient sequence processing, followed by standard multi-head attention in deeper layers for complex global dependency capture. With approximately 170 million parameters, the model achieves a final training loss of 1.6 and a perplexity of 5.2 on its diverse pre-training corpus. This hierarchical hybrid approach demonstrates a compelling balance between computational efficiency and modeling capacity, offering a promising direction for developing resource-conscious LLMs.
 >
->Link: [Read the Full Technical Report](papers/i3-RedHerring_Technical_Report.pdf)
+>Link: [Read the Full Report](papers/i3-200M-03122025.pdf)

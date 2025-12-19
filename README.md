@@ -2,7 +2,7 @@
 
 ## Research on Hyper-Efficient LLM Architectures
 
-This repository is the central hub for independent research into **i3 (Innovative, Intelligent, Inherently Efficient)** architectures. The core objective is to redefine computational scaling laws for Large Language Models (LLMs) by prioritizing architectural efficiency over brute-force hardware scaling, with the goal of making state-of-the-art performance accessible without large-scale infrastructure.
+This repository is the central hub for independent research into **i3** architectures. The core objective is to redefine computational scaling laws for Large Language Models (LLMs) by prioritizing architectural efficiency over brute-force hardware scaling, with the goal of making state-of-the-art performance accessible without large-scale infrastructure.
 
 ---
 
